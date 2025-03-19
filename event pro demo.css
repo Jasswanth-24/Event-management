@@ -1,0 +1,243 @@
+.demo {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+
+}
+
+nav>ul {
+    position: relative;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+nav>ul>li {
+    display: inline;
+    color: black;
+}
+
+
+
+#li1 {
+    display: grid;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#li2 {
+    display: grid;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#li3 {
+
+    display: grid;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#li4 {
+    display: grid;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#li5 {
+    display: grid;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#li6 {
+    display: grid;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#li7 {
+    display: grid;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#li8 {
+    display: grid;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#li9 {
+    display: grid;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+#li10 {
+    display: grid;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+#li11 {
+    display: grid;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+.content {
+    border: 200px solid #4da391;
+    background-color: #4da391;
+      
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0%  cover 40%;    
+}
+
+
+
+@keyframes  appear{
+
+    from {
+        opacity: 0;
+ clip-path: inset(100% 100% 0 0);
+    }
+
+    to {
+        opacity: 1;
+ clip-path: inset(0 0 0 0 );
+    }
+
+}
+
+h5 {
+    text-align: justify;
+}
+
+.ourservices {
+
+    font-family: "Lora", serif;
+}
+
+.WEDDINGPLANNING {
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 340px;
+}
+
+.wedplan {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-style: italic;
+    color: #4da391;
+    float: right;
+    margin-right: 340px;
+}
+
+.exploremore>a {
+    border: 20px solid #4da391;
+    background-color: #4da391;
+    text-decoration: none;
+    border-width: 15px;
+    border-right-width: 90px;
+
+}
+
+.exploremore>a:hover {
+    border: 20px solid black;
+    background-color: black;
+}
+
+.weddecor {
+
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 175px;
+}
+
+.Painting {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-style: italic;
+    color: #4da391;
+    margin-left: 175px;
+
+}
+
+.kreativeevent {
+    margin-left: 175px;
+}
+
+.Excellence {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-style: italic;
+    color: #4da391;
+    float: right;
+    margin-right: 100px;
+}
+
+.kindword {
+    font-family: "Lora", serif;
+    color: #4da391;
+}
+
+
+
+.rating2>a {
+    border: 10px solid rgb(41, 112, 204);
+    border-radius: 10px;
+    background-color: rgb(41, 112, 204);
+    text-decoration: none;
+    font-size: x-small;
+}
+
+.preview:hover {
+    border: 2px ridge;
+
+}
+
+.gicon {
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.adress {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+.footicon {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lora", serif;
+}
+
+.footlines {
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Lora", serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+
+}
